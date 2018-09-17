@@ -1,0 +1,39 @@
+{
+  "name": "defensor-cli",
+  "version": "0.0.1",
+  "description": "a cli for defensor",
+  "main": "./lib/index.js",
+  "bin": {
+    "defensor": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TingGe/defensor-cli.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "cmdline": "^2.0.4",
+    "commander": "^2.18.0",
+    "consolidate": "^0.15.1",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.0",
+    "metalsmith": "^2.3.0",
+    "mz": "^2.7.0",
+    "ncp": "^2.0.0",
+    "ora": "^3.0.0",
+    "request": "^2.88.0",
+    "rmfr": "^2.0.0-3",
+    "semver": "^5.5.1",
+    "swig": "^1.4.2"
+  },
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "configs": {
+    "server": "https://alibaba.github.io/defensor",
+    "registry": "https://registry.npm.taobao.org",
+    "cacheTTL": 3600000
+  },
+  "author": "TingGe<505253293@163.com>",
+  "license": "MIT"
+}
